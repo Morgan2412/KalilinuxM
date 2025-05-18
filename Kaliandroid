@@ -106,7 +106,7 @@ function set_strings() {
       IMAGE_NAME=kali-nethunter-rootfs-${wimg}-${SYS_ARCH}.tar.xz
          ##IMAGE_NAME=kali-nethunter-daily-dev-rootfs-${wimg}-${SYS_ARCH}.tar.xz
          ##https://kali.download/nethunter-images/current/rootfs/kali-nethunter-rootfs-full-armhf.tar.xz
-SHA_NAME=${IMAGE_NAME}.sha512sum
+SHA_NAME=${IMAGE_NAME}.sha256sum
 }    
 
 function prepare_fs() {
